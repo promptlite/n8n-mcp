@@ -11,79 +11,93 @@
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-mcp?referralCode=n8n-mcp)
 
 ===
-# 🔌 n8n MCP (Model Context Protocol) Workflows
-
-> A collection of workflows utilizing the Model Context Protocol (MCP) to improve LLM interactions across apps.
-
----
-
-## 🇮🇩 PromptLite Enhanced Version 🇮🇩  
-This is a **forked and enhanced** version of the original [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) repository, customized for the **Indonesian business automation ecosystem**.
-
----
-
-## 🧠 What is MCP?
-MCP (Model Context Protocol) allows you to **share context across LLMs** and apps like Claude Desktop, Claude Code, Windsurf, Cursor, etc., enabling seamless continuity and memory between workflows.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/enescingoz/awesome-n8n-templates/master/logo.png" width="200" />
+  <h1>Awesome n8n Templates</h1>
+  <p>
+    📊 Kumpulan template n8n otomatisasi berkualitas tinggi — dikurasi & disempurnakan untuk bisnis Indonesia oleh <b>PromptLite</b>.
+  </p>
+  <p>
+    <a href="https://nas.io/otomasi-bisnis-id"><img src="https://img.shields.io/badge/Join%20Starter%20Community-Rp%2097k%2Fbln-green" /></a>
+    <a href="https://nas.io/automation-pro-id"><img src="https://img.shields.io/badge/Pro%20Community%20Support-Rp%20297k%2Fbln-blue" /></a>
+  </p>
+</div>
 
 ---
 
-## ✨ What PromptLite Adds:
-- 📘 **Dokumentasi dalam Bahasa Indonesia**
-- 💼 **Contoh implementasi untuk UKM dan bisnis lokal**
-- 🔁 **Integrasi dengan Claude / Windsurf / Cursor / DeepSeek / GPT**
-- 🧩 **Optimized workflows untuk pasar Indonesia**
-- 🛠️ **Setup guide siap pakai untuk pengguna n8n lokal**
-- 💬 **Akses komunitas & support langsung**
+## ✨ PromptLite Enhancements 🇮🇩
+
+Repository ini merupakan **fork dan perluasan** dari [original project oleh enescingoz](https://github.com/enescingoz/awesome-n8n-templates) yang luar biasa.
+
+> ✅ Diterjemahkan & disesuaikan untuk konteks bisnis Indonesia  
+> ✅ Kategori workflows untuk UKM, e-commerce lokal, dan payment gateway lokal  
+> ✅ Panduan setup lengkap dalam Bahasa Indonesia  
+> ✅ Dukung WhatsApp, Tokopedia, Shopee, Gojek, OVO, dll  
+> ✅ Dokumentasi dan tutorial tambahan
 
 ---
 
-## 🚀 Use Cases in Indonesia:
-| Use Case | Description |
-|---------|-------------|
-| 👩‍🏫 EduBot | Guru digital dengan memory berkelanjutan untuk siswa |
-| 💬 WhatsApp Agent | Chatbot dengan konteks percakapan tersimpan |
-| 📈 Marketing Automation | Multi-channel LLM dengan MCP sharing |
-| 🤖 Claude Memory | Claude Desktop yang terhubung ke automation layer |
+## 📦 Struktur Folder
+
+- `workflows/` – Semua file .json workflow siap pakai
+- `docs/` – Panduan dan dokumentasi tambahan
+- `examples/` – Contoh implementasi nyata
+- `img/` – Gambar untuk dokumentasi
 
 ---
 
-## 📋 Requirements:
-- ✅ n8n v1.0+
-- ✅ Node.js environment
-- ✅ API access to Claude, GPT, or Windsurf
-- ✅ Redis (opsional untuk MPC-style memory persistence)
+## 📚 Contoh Workflow Utama
+
+| Workflow                     | Deskripsi                                               | Target Pengguna         |
+|-----------------------------|----------------------------------------------------------|--------------------------|
+| WhatsApp Auto-Reply         | Balasan otomatis via WhatsApp Business API              | Toko Online, UMKM        |
+| Invoice Otomatis GoogleSheet| Buat invoice & kirim otomatis via Gmail & WhatsApp      | Freelancer, Akuntansi    |
+| Reminder Pembayaran         | Pengingat otomatis ke pelanggan via WA & Email          | Sewa Properti, Edukasi   |
+| Integrasi Tokopedia         | Tarik order & kirim notifikasi otomatis                 | Seller marketplace       |
 
 ---
 
-## 📚 Dokumentasi Bahasa Indonesia:
-- 📘 [Panduan Instalasi (ID)](./docs/setup-guide-id.md)  
-- 🛠️ [Contoh Implementasi UMKM](./docs/use-cases-indonesia.md)  
-- ❓ [Panduan Troubleshooting](./docs/troubleshooting-id.md)
+## 🇮🇩 Petunjuk Penggunaan Bahasa Indonesia
+
+### Langkah 1: Setup n8n
+> Gunakan EasyPanel atau Docker untuk install n8n.  
+Tutorial video tersedia di [PromptLite Automation Hub](https://github.com/promptlite/promptlite-automation-hub).
+
+### Langkah 2: Import Workflow
+- Download file .json
+- Masuk ke UI n8n → klik "Import Workflow" → pilih file  
+- Lakukan modifikasi sesuai kebutuhan bisnis
+
+### Langkah 3: Kustomisasi
+- Masukkan API key atau webhook URL yang sesuai  
+- Sesuaikan format Google Sheet, pesan WhatsApp, dsb
 
 ---
 
-## 💎 Ingin Bimbingan Langsung?
-Bergabung ke komunitas kami:
-- 🥉 **[Starter Community – Rp 97K/bulan](https://nas.io/otomasi-bisnis-id)** → Akses ke workflow siap pakai
-- 🏆 **[Pro Community – Rp 297K/bulan](https://nas.io/automation-pro-id)** → Konsultasi, workshop, dan lisensi white-label
+## 💎 Ingin Support & Akses Premium?
+
+🟢 Untuk pemula:
+- Join komunitas [Otomasi Bisnis Indonesia (Rp 97rb/bulan)](https://nas.io/otomasi-bisnis-id)
+- Akses 3 template/bulan + tutorial + grup WhatsApp
+
+🔵 Untuk bisnis serius:
+- Join [Automation Pro (Rp 297rb/bulan)](https://nas.io/automation-pro-id)
+- Akses 15+ workflow premium, konsultasi 1-on-1, dan hak reseller
 
 ---
 
-## 📣 Original Repository
-This repository is forked from:  
-👉 [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp)
+## 🙌 Acknowledgement
+
+> This repository is a fork of the excellent [Awesome n8n Templates](https://github.com/enescingoz/awesome-n8n-templates) project by [@enescingoz](https://github.com/enescingoz).  
+All original contributions are credited, and this fork adds Indonesian market-specific localization.
 
 ---
 
-## 🤝 Maintained By
-**PromptLite Team**  
-[Website](https://promptlite.com) | [Telegram](https://t.me/promptlite) | [WhatsApp](https://wa.me/yourNumber)
+## 📩 Kontak & Dukungan
 
----
-
-## 📜 License
-This repository remains under the **MIT License** as per the original.
-
+- Telegram: [@promptlite](https://t.me/promptlite)
+- WhatsApp: [PromptLite Support](https://wa.me/628xxxxxxxxxx)
+- Email: admin@promptlite.id
 ===
 
 
