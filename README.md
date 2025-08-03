@@ -16,23 +16,20 @@
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/enescingoz/awesome-n8n-templates/master/logo.png" width="200" />
-  <h1>Awesome n8n Templates</h1>
-  <p>
-    📊 Kumpulan template n8n otomatisasi berkualitas tinggi — dikurasi & disempurnakan untuk bisnis Indonesia oleh <b>PromptLite</b>.
-  </p>
-</div>
 
-<div align="center">
-  
+# Awesome n8n Templates
+
+📚 Kumpulan template n8n otomatisasi berkualitas tinggi — dikurasi & disempurnakan untuk bisnis Indonesia oleh **PromptLite**.
+
 [![Join Starter Community](https://img.shields.io/badge/Join%20Starter%20Community-Rp%2097k%2Fbln-green)](https://nas.io/otomasi-bisnis-id)
 [![Pro Community Support](https://img.shields.io/badge/Pro%20Community%20Support-Rp%20297k%2Fbln-blue)](https://nas.io/automation-pro-id)
+
+<br/>
 
 [![Forked From](https://img.shields.io/badge/Forked%20From-enescingoz%2Fawesome--n8n--templates-blue)](https://github.com/enescingoz/awesome-n8n-templates)
 ![Made for](https://img.shields.io/badge/Made%20for-Indonesia-red)
 
 </div>
-
 
 ---
 
