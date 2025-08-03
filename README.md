@@ -10,6 +10,83 @@
 [![Docker](https://img.shields.io/badge/docker-ghcr.io%2Fczlonkowski%2Fn8n--mcp-green.svg)](https://github.com/czlonkowski/n8n-mcp/pkgs/container/n8n-mcp)
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-mcp?referralCode=n8n-mcp)
 
+===
+# 🔌 n8n MCP (Model Context Protocol) Workflows
+
+> A collection of workflows utilizing the Model Context Protocol (MCP) to improve LLM interactions across apps.
+
+---
+
+## 🇮🇩 PromptLite Enhanced Version 🇮🇩  
+This is a **forked and enhanced** version of the original [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) repository, customized for the **Indonesian business automation ecosystem**.
+
+---
+
+## 🧠 What is MCP?
+MCP (Model Context Protocol) allows you to **share context across LLMs** and apps like Claude Desktop, Claude Code, Windsurf, Cursor, etc., enabling seamless continuity and memory between workflows.
+
+---
+
+## ✨ What PromptLite Adds:
+- 📘 **Dokumentasi dalam Bahasa Indonesia**
+- 💼 **Contoh implementasi untuk UKM dan bisnis lokal**
+- 🔁 **Integrasi dengan Claude / Windsurf / Cursor / DeepSeek / GPT**
+- 🧩 **Optimized workflows untuk pasar Indonesia**
+- 🛠️ **Setup guide siap pakai untuk pengguna n8n lokal**
+- 💬 **Akses komunitas & support langsung**
+
+---
+
+## 🚀 Use Cases in Indonesia:
+| Use Case | Description |
+|---------|-------------|
+| 👩‍🏫 EduBot | Guru digital dengan memory berkelanjutan untuk siswa |
+| 💬 WhatsApp Agent | Chatbot dengan konteks percakapan tersimpan |
+| 📈 Marketing Automation | Multi-channel LLM dengan MCP sharing |
+| 🤖 Claude Memory | Claude Desktop yang terhubung ke automation layer |
+
+---
+
+## 📋 Requirements:
+- ✅ n8n v1.0+
+- ✅ Node.js environment
+- ✅ API access to Claude, GPT, or Windsurf
+- ✅ Redis (opsional untuk MPC-style memory persistence)
+
+---
+
+## 📚 Dokumentasi Bahasa Indonesia:
+- 📘 [Panduan Instalasi (ID)](./docs/setup-guide-id.md)  
+- 🛠️ [Contoh Implementasi UMKM](./docs/use-cases-indonesia.md)  
+- ❓ [Panduan Troubleshooting](./docs/troubleshooting-id.md)
+
+---
+
+## 💎 Ingin Bimbingan Langsung?
+Bergabung ke komunitas kami:
+- 🥉 **[Starter Community – Rp 97K/bulan](https://nas.io/otomasi-bisnis-id)** → Akses ke workflow siap pakai
+- 🏆 **[Pro Community – Rp 297K/bulan](https://nas.io/automation-pro-id)** → Konsultasi, workshop, dan lisensi white-label
+
+---
+
+## 📣 Original Repository
+This repository is forked from:  
+👉 [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp)
+
+---
+
+## 🤝 Maintained By
+**PromptLite Team**  
+[Website](https://promptlite.com) | [Telegram](https://t.me/promptlite) | [WhatsApp](https://wa.me/yourNumber)
+
+---
+
+## 📜 License
+This repository remains under the **MIT License** as per the original.
+
+===
+
+
 A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to n8n node documentation, properties, and operations. Deploy in minutes to give Claude and other AI assistants deep knowledge about n8n's 525+ workflow automation nodes.
 
 ## Overview
